@@ -1,1 +1,34 @@
 [2025-12-04 21:14:41,892: INFO: main: Welcome to custom log]
+[2025-12-09 22:18:21,277: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-09 22:18:21,283: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-09 22:20:40,413: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-09 22:20:40,438: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-09 22:20:40,441: INFO: common: created directory at: artifacts]
+[2025-12-09 22:20:40,444: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-09 22:20:43,499: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7933:14F937:1CA0A3:37ACB3:6938535D
+Accept-Ranges: bytes
+Date: Tue, 09 Dec 2025 16:50:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1765299038.740597,VS0,VE895
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 50e7ba8d6bc9c1d03c8f04e5504b1d318aa4505c
+Expires: Tue, 09 Dec 2025 16:55:38 GMT
+Source-Age: 1
+
+]
