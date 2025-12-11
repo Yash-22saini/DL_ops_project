@@ -53,4 +53,11 @@ Now run python main.py  and we will see in artifacts folder data unzip and runni
 
 ----------------------------------------------------------------------
 
+update the params.yaml
+
+Add 'prepare_base_model' in config.yaml 
+
+Now create file in research ----> prepare_base_model.ipynb 
+
+---------------------------------------------------------------------------
 
