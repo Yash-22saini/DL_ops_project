@@ -142,3 +142,44 @@ x==========x]
 [2025-12-22 22:10:32,108: INFO: main: >>>>>> Training completed <<<<<<
 
 x==========x]
+[2025-12-23 22:37:13,721: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2025-12-23 22:37:13,724: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-23 22:37:13,725: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-23 22:37:13,726: INFO: common: created directory at: artifacts]
+[2025-12-23 22:37:13,726: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-23 22:37:13,727: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-12-23 22:37:14,017: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-12-23 22:37:14,018: INFO: main: >>>>>> Prepare Base Model started <<<<<<]
+[2025-12-23 22:37:14,019: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-23 22:37:14,020: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-23 22:37:14,021: INFO: common: created directory at: artifacts]
+[2025-12-23 22:37:14,021: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-12-23 22:37:14,498: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-23 22:37:14,653: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-23 22:37:14,771: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
+
+x==========x]
+[2025-12-23 22:37:14,771: INFO: main: >>>>>> Training started <<<<<<]
+[2025-12-23 22:37:14,773: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-23 22:37:14,774: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-23 22:37:14,775: INFO: common: created directory at: artifacts]
+[2025-12-23 22:37:14,775: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-12-23 22:37:14,775: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-12-23 22:37:14,776: INFO: common: created directory at: artifacts\prepare_training]
+[2025-12-23 22:37:14,956: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-23 22:40:43,862: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-23 22:40:44,046: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-23 22:40:44,168: INFO: main: >>>>>> Training completed <<<<<<
+
+x==========x]
+[2025-12-23 22:40:44,169: INFO: main: >>>>>> Evaluation started <<<<<<]
+[2025-12-23 22:40:44,171: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-23 22:40:44,173: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-23 22:40:44,173: INFO: common: created directory at: artifacts]
+[2025-12-23 22:40:44,371: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-23 22:41:05,537: INFO: common: json file saved at: scores.json]
+[2025-12-23 22:41:05,538: INFO: main: >>>>>> Evaluation completed <<<<<<
+
+x==========x]
